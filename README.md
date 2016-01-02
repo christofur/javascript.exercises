@@ -1,0 +1,1 @@
+Working through core JavaScript exerices. 
