@@ -1,1 +1,1 @@
-Working through core JavaScript exerices. 
+Working through core JavaScript exercises. 
