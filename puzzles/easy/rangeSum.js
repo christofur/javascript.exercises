@@ -33,8 +33,6 @@ var NumArray = function(nums) {
 
 };
 
-
-
 /**
  * @param {number} i
  * @param {number} j
