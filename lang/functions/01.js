@@ -1,3 +1,5 @@
+
+
 /*
 
     JavaScript Exercises : Functions
@@ -9,10 +11,9 @@
 
  */
 
-var a = function b(){};
-var c = function(){};
-function d(){};
-
+var a = function b() {};
+var c = function() {};
+function d() {}
 console.log(typeof a);
 console.log(a.prototype);
 console.log(a instanceof Function);
