@@ -10,8 +10,6 @@
 
  */
 
-
-
 var foo = function () {
 
     var a = 3, b = 5;
