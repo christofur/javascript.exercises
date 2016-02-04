@@ -2,6 +2,7 @@
   <dictionary name="perks">
     <words>
       <w>falsey</w>
+      <w>prototypal</w>
     </words>
   </dictionary>
 </component>

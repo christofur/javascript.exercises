@@ -68,6 +68,7 @@ NumArray.prototype.sumRange = function(i, j) {
  * numArray.sumRange(0, 2);
  */
 var memo = [];
+
 var numArray = new NumArray([1, 3, 5]);
 console.log(numArray.sumRange(0,2)); // 9
 numArray.update(1,2);
