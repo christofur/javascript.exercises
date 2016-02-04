@@ -15,5 +15,35 @@
   "bugs": {
     "url": "https://github.com/christofur/javascript.exercises/issues"
   },
-  "homepage": "https://github.com/christofur/javascript.exercises#readme"
+  "homepage": "https://github.com/christofur/javascript.exercises#readme",
+  "dependencies": {
+    "babel-preset-node5": "^10.4.1",
+    "chai": "^3.5.0",
+    "express": "^4.13.4",
+    "express-graphql": "^0.4.5",
+    "faker": "^3.0.1",
+    "graphiql": "^0.4.5",
+    "graphql": "^0.4.14",
+    "lodash": "^4.0.1",
+    "mocha": "^2.4.4",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "sequelize": "^3.18.0",
+    "tedious": "^1.13.2",
+    "tslint": "^3.3.0",
+    "typescript": "^1.7.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.5",
+    "babel-core": "^6.4.5",
+    "babel-polyfill": "^6.3.14",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-runtime": "^6.3.19",
+    "chai": "^3.5.0",
+    "eslint-plugin-babel": "^3.1.0",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3",
+    "supertest": "^1.1.0",
+    "supertest-as-promised": "^2.0.2"
+  }
 }
