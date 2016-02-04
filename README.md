@@ -1,1 +1,1 @@
-Working through core JavaScript exercises. 
+A personal JavaScript workbench
