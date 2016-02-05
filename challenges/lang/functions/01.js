@@ -7,6 +7,8 @@
     Functions in JavaScript are Objects. Objects are collections of name / value pairs
     with a link to a prototype object. How do we access the prototype link?
 
+    the prototype of a function is an object (everything inherits from object)
+
     Complete the expected output for the lines of code below:
 
  */
