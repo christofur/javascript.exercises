@@ -26,14 +26,12 @@ describe('Decorator Pattern', () => {
 var Beverage = function(cost) {
   this.cost = cost;
   this.discounts = [];
-};
-
-Beverage.prototype.getCost = function()
-{
-  for(var i in this.discounts)
-  {
+  this.getCost = function(){
+    for(var i in this.discounts)
+    {
       this.cost = this.discounts[i](this.cost);
-  }
+    }
 
-  return this.cost;
+    return this.cost;
+  }
 };

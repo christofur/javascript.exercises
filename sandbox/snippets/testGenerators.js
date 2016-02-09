@@ -19,7 +19,6 @@ describe("Generators", () => {
 });
 
 //SUT
-
 function *foo() {
     yield 10;
     yield 20;

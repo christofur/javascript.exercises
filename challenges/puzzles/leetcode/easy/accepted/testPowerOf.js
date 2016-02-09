@@ -10,7 +10,6 @@ describe('Power Of Algorithm', () => {
     this.sut = new Sut();
   });
 
-  "use strict";
   it('Should return true for positive test cases', () => {
 
     const positiveTestCases = [3, 9, 27];
