@@ -41,9 +41,11 @@ var diagonalDifference = function(arr){
         return sum;
     };
 
-    var difference = findDiagonal(arr, (arr, i) => { return arr[i][i]; }) - findDiagonal(arr, (arr, i) => {return arr[(arr.length - (i + 1))][i]});
 
-    //var difference = findPrimaryDiagonal(arr) - findSecondaryDiagonal(arr);
+    var difference = findPrimaryDiagonal(arr) - findSecondaryDiagonal(arr);
+
+    // OR
+    //var difference = findDiagonal(arr, (arr, i) => { return arr[i][i]; }) - findDiagonal(arr, (arr, i) => {return arr[(arr.length - (i + 1))][i]});
 
     return Math.abs(difference);
 
